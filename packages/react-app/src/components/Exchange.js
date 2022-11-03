@@ -122,7 +122,7 @@ useEffect(() => {
         <AmountOut
         fromToken={fromToken}
         toToken={toToken}
-        AmountIn={fromValueBigNumber}
+        amountIn={fromValueBigNumber}
         pairContract={pairAddress}
         currencyValue={toToken}
         onSelect={onToTokenChange}
